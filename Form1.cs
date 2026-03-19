@@ -16,23 +16,30 @@ namespace EchoMessenger
 
         private void btnSend_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(txtMsg.Text))
+            string rawInput = txtMsg.Text.Trim();
+
+            
+            if (!string.IsNullOrWhiteSpace(rawInput))
             {
                
-                lsbMsg.Items.Add(txtMsg.Text);
+                string timestamp = DateTime.Now.ToString("[HH:mm:ss]");
+
+                
+                string fullMessage = $"{timestamp} {rawInput}";
+                lsbMsg.Items.Add(fullMessage);
+
+                
+                lblCount.Text = $"현재 대화: {lsbMsg.Items.Count}개";
 
                 
                 txtMsg.Clear();
-                
                 txtMsg.Focus();
             }
             else
             {
                 
-                txtMsg.Clear();
                 txtMsg.Focus();
             }
-
         }
 
         private void lsbMsg_SelectedIndexChanged(object sender, EventArgs e)

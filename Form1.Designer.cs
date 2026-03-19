@@ -32,6 +32,7 @@
             lsbMsg = new ListBox();
             txtMsg = new TextBox();
             btnSend = new Button();
+            lblCount = new Label();
             SuspendLayout();
             // 
             // lbl
@@ -75,12 +76,21 @@
             btnSend.UseVisualStyleBackColor = false;
             btnSend.Click += btnSend_Click;
             // 
+            // lblCount
+            // 
+            lblCount.AutoSize = true;
+            lblCount.Location = new Point(488, 334);
+            lblCount.Name = "lblCount";
+            lblCount.Size = new Size(0, 15);
+            lblCount.TabIndex = 4;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Cornsilk;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblCount);
             Controls.Add(btnSend);
             Controls.Add(txtMsg);
             Controls.Add(lsbMsg);
@@ -97,5 +107,6 @@
         private ListBox lsbMsg;
         private TextBox txtMsg;
         private Button btnSend;
+        private Label lblCount;
     }
 }
