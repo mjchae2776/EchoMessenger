@@ -23,7 +23,7 @@
 <br>
 <br>
 - UI 완성 
-![과제1 실행화면](img/UI.png)
+![과제1 실행화면](img/aa.png)
 <br>
 <br>
 <br>
