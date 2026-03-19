@@ -19,6 +19,8 @@ namespace EchoMessenger
             string typed_msg;
             typed_msg = txtMsg.Text;
             lsbMsg.Items.Add(typed_msg);
+            txtMsg.Clear();
+         
         }
 
         private void lsbMsg_SelectedIndexChanged(object sender, EventArgs e)
