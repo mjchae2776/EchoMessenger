@@ -23,8 +23,12 @@
 <br>
 <br>
 - UI
+
+![과제1 실행화면](img/b.png)
 <br>
 ![과제1 실행화면](img/UI.png)
+
+
 <br>
 <br>
 <br>
