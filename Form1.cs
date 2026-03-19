@@ -16,19 +16,20 @@ namespace EchoMessenger
 
         private void btnSend_Click(object sender, EventArgs e)
         {
-            string typed_msg;
-            typed_msg = txtMsg.Text;
-            lsbMsg.Items.Add(typed_msg);
-            txtMsg.Clear();
             if (!string.IsNullOrWhiteSpace(txtMsg.Text))
             {
-
+               
                 lsbMsg.Items.Add(txtMsg.Text);
 
-
+                
                 txtMsg.Clear();
-
-
+                
+                txtMsg.Focus();
+            }
+            else
+            {
+                
+                txtMsg.Clear();
                 txtMsg.Focus();
             }
 
