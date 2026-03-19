@@ -62,6 +62,7 @@
             txtMsg.Size = new Size(403, 23);
             txtMsg.TabIndex = 2;
             txtMsg.TextChanged += txtMsg_TextChanged;
+            txtMsg.KeyDown += txtMsg_KeyDown;
             // 
             // btnSend
             // 

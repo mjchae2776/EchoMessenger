@@ -20,8 +20,22 @@
 
 ## 실행 화면 (과제1)
 - 과제1 코드의 실행 스크린샷
-![과제1 실행화면](img/과제 1 - UI 구성.png)
-- 과제 내용
+![과제1 실행화면](img/UI.png)
+- UI 완성 
+
+(img/2.png)
+-전송 기능 구현 완료
+ : 전송 버튼 클릭 시 TextBox의 텍스트를 ListBox의 항목(Items)으로 추가함
+
+(img/b.png)
+-전송 버튼 누르기 전
+ : TextBox에 텍스트가 남아있음
+
+(img/c.png)
+-전송 버튼 누른 후
+ : Textbox에 텍스트를 비워(Clear) 다음 입력을 준비함
+
+
 - Label(표시), TextBox(입력), Button(전송), ListBox(대화창)를 적절히 배치합니다.- 전송 버튼 클릭 시 TextBox의 텍스트를 ListBox의 항목(Items)으로 추가합니다.
 - 추가 직후 TextBox의 내용을 비워(Clear) 다음 입력을 준비합니다.
 - 구현 내용과 기능 설명
