@@ -137,7 +137,8 @@
 <img width="1024" height="620" alt="image" src="https://github.com/user-attachments/assets/a915cc86-3937-4258-bdc1-228e1bd484f0" />
 
 -글자 수 제한
-<img width="1024" height="620" alt="image" src="https://github.com/user-attachments/assets/84a87f26-d955-43a1-b10c-8d3d8f4527e3" />
+<img width="945" height="620" alt="568758154-84a87f26-d955-43a1-b10c-8d3d8f4527e3" src="https://github.com/user-attachments/assets/3255fab5-822d-41b2-9bc8-dcedce0629ec" />
+
 
 
 
