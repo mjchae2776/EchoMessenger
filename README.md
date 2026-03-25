@@ -131,10 +131,10 @@
 <br>
 <br>
 -선택 항목 삭제
-<img width="1024" height="620" alt="image" src="https://github.com/user-attachments/assets/ba609d99-5266-4ed4-9530-0a289ac9d060" />
+<img width="966" height="620" alt="568752926-ba609d99-5266-4ed4-9530-0a289ac9d060" src="https://github.com/user-attachments/assets/bcd73f50-1877-4c22-a78c-dd4bff5c1707" />
 
 -전체 초기화
-<img width="1024" height="620" alt="image" src="https://github.com/user-attachments/assets/a915cc86-3937-4258-bdc1-228e1bd484f0" />
+<img width="958" height="620" alt="568753637-a915cc86-3937-4258-bdc1-228e1bd484f0" src="https://github.com/user-attachments/assets/c438fb25-6f47-4089-86a7-04df3732d058" />
 
 -글자 수 제한
 <img width="945" height="620" alt="568758154-84a87f26-d955-43a1-b10c-8d3d8f4527e3" src="https://github.com/user-attachments/assets/3255fab5-822d-41b2-9bc8-dcedce0629ec" />
